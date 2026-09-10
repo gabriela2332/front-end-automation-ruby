@@ -1,0 +1,2 @@
+# PowerShell alias para Cucumber com UTF-8 no Windows
+Set-Alias -Name cucumber -Value { param($arg) & "$PSScriptRoot\cucumber.ps1" $arg } -Force
